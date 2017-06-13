@@ -145,6 +145,7 @@ if [ $current -eq 0 ]; then
   mv /root/thpp_build.sh build.sh
   chmod +x build.sh
 fi
+sleep 1
 ./build.sh
 
 echo
