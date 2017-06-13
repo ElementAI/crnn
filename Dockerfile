@@ -18,4 +18,5 @@ WORKDIR /root/crnn/src
 RUN chmod +x build_cpp.sh
 RUN ./build_cpp.sh
 
+RUN wget https://www.dropbox.com/s/tx6cnzkpg99iryi/crnn_demo_model.t7
 ADD crnn_demo_model.t7 model/crnn_demo/
