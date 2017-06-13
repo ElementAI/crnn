@@ -17,3 +17,5 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /root/crnn/src
 RUN chmod +x build_cpp.sh
 RUN ./build_cpp.sh
+
+ADD crnn_demo_model.t7 model/crnn_demo/
